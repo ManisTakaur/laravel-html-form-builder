@@ -8,17 +8,17 @@ This project's  goal is to make a simple form builder package, which will have o
 ### Installation
     Require this package with composer.
 
-    ```
-        composer require barryvdh/laravel-debugbar --dev
+```
+    composer require barryvdh/laravel-debugbar --dev
 
-    ```
+```
     ### Laravel 5.5+:
         If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
-        ```
-        formBuilder\htmlFormBuilder\htmlFormBuilderServiceProvider::class,
+```
+formBuilder\htmlFormBuilder\htmlFormBuilderServiceProvider::class,
 
-        ```
+```
 
 ##### Input tag:
 We will be using this template as follows
