@@ -13,7 +13,7 @@ Require this package with composer.
 
 ```
 #### Laravel 5.5+:
-        If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
+If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```
 formBuilder\htmlFormBuilder\htmlFormBuilderServiceProvider::class,
