@@ -6,13 +6,13 @@ This project's  goal is to make a simple form builder package, which will have o
 
 ## Form Builder
 ### Installation
-    Require this package with composer.
+Require this package with composer.
 
 ```
     composer require barryvdh/laravel-debugbar --dev
 
 ```
-    ### Laravel 5.5+:
+#### Laravel 5.5+:
         If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
 
 ```
