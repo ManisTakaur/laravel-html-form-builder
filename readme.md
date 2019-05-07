@@ -9,7 +9,7 @@ This project's  goal is to make a simple form builder package, which will have o
 Require this package with composer.
 
 ```
-    composer require barryvdh/laravel-debugbar --dev
+    composer require formbuilder/htmlformbuilder
 
 ```
 #### Laravel 5.5+:
@@ -76,7 +76,7 @@ $dataRadio = [
         'value1' => '10:00 AM - 06:00PM',
         'value2' => '11:00 AM - 07:00PM'
     ],
-    'active' => 'value2',
+    'active' => null,
     'required' => true
 ];
 ```
